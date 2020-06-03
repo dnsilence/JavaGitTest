@@ -46,17 +46,17 @@
 
    +  分支
 
-     - clone仓库至本地
+     + clone仓库至本地
 
-     - 添加分支并维护
+     + 添加分支并维护
 
        ```git
        $ git branch xumafei4958
        ```
        
-     - 关联远程库(同前)
+     + 关联远程库(同前)
      
-     - push 分支至远程库
+     + push 分支至远程库
      
        ```
        $ git push --set-upstream origin xumafei4958
