@@ -46,17 +46,20 @@
 
    + 分支
       + clone仓库至本地
+      
       + 添加分支并维护
       
          ```git
-         $ git branch xumafei4958
+         $ git branch "branch name"
          ```
       
       + 关联远程库(同前)
+      
       + push 分支至远程库
       
          ```
-         $ git push --set-upstream origin xumafei4958
+         初次：$ git push --set-upstream origin "branch name"
+         多次：$ git push origin "branch name"
          ```
       
 #### Markdown学习
