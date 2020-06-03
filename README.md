@@ -32,7 +32,7 @@
 
   + 配置ssh密钥，将本地对公密钥配置到GitHub中
 
-  + 添加远程库 origin 
+  + 关联远程库 origin 
 
     ```git
     $ git remote add origin git@github.com:michaelliao/learngit.git
@@ -48,15 +48,19 @@
 
      - clone仓库至本地
 
-     - 添加分支
+     - 添加分支并维护
 
        ```git
        $ git branch xumafei4958
        ```
        
-     - 添加远程库
+     - 关联远程库(同前)
      
-     - push 分支
+     - push 分支至远程库
+     
+       ```
+       $ git push --set-upstream origin xumafei4958
+       ```
 
 #### Markdown学习
 
