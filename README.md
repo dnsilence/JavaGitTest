@@ -2,7 +2,7 @@
 
 ### **一、基础工具学习篇**
 
-1. ####  Git学习
+####  Git学习
 
 + **地址**
 
@@ -32,9 +32,33 @@
 
   + 配置ssh密钥，将本地对公密钥配置到GitHub中
 
-  + git push 将本地仓库上传到GitHub中
+  + 添加远程库 origin 
 
-2. #### Markdown学习
+    ```git
+    $ git remote add origin git@github.com:michaelliao/learngit.git
+    ```
+    
+   + git push 将本地仓库上传到GitHub中
+
+     ```
+     $ git push origin master
+     ```
+
+   +  分支
+
+     - clone仓库至本地
+
+     - 添加分支
+
+       ```git
+       $ git branch xumafei4958
+       ```
+       
+     - 添加远程库
+     
+     - push 分支
+
+#### Markdown学习
 
 ### **二、Java学习篇**
 
